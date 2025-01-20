@@ -8,7 +8,7 @@ import userRoutes from './routes/user.js';
 import chatRoutes from './routes/chat.js';
 import messageRoutes from './routes/message.js';
 import * as Server from 'socket.io';
-
+  
 const app = express();
 const corsConfig = {
   origin: process.env.BASE_URL,
